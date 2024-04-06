@@ -1,0 +1,48 @@
+<!-- Name - Amrinder Singh
+Student Id - C0913235
+Date - 4 April, 2024
+Dice Roll Game -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dice Game</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="heading">DICE GAME</h1>
+    </header>
+
+    <!-- main body conatiner  -->
+    <div class="container">
+      <div class="cc">
+        <div class="player1">
+          <p>Player 1</p>
+          <img id="dice1" class="dice" src="./images/dice1.png" alt="Dice 1" />
+        </div>
+
+        <div class="player2">
+          <p>Player 2</p>
+          <img id="dice2" class="dice" src="./images/dice1.png" alt="Dice 1" />
+        </div>
+      </div>
+
+      <br />
+      <button id="btn">Roll</button>
+      <div id="winner"></div>
+      <div id="scores">
+        <p>Player 1 Score: <span id="score1">0</span></p>
+        <p>Player 2 Score: <span id="score2">0</span></p>
+      </div>
+    </div>
+
+    <footer>
+      <p class="me">Created by Amrinder Singh C0913235</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
